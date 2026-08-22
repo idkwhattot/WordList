@@ -1,3 +1,4 @@
+print("WOWWW")
 local Players = game:GetService("Players")
 local Web = game:GetService("HttpService")
 
@@ -6,7 +7,7 @@ local parent = player:WaitForChild("PlayerGui")
 local frame = parent:WaitForChild("InGame"):WaitForChild("Frame")
 
 local SUGGESTIONS = 6
-local SOURCE = "https://raw.githubusercontent.com/idkwhattot/WordList/refs/heads/main/EnglishWords.json" --delet
+local SOURCE = "https://sodalol.online/wordslist.json" --delet
 
 local dictionary = {}
 local prefixCache = {}
@@ -168,3 +169,5 @@ end
 local display = frame:WaitForChild("CurrentWord")
 display.ChildAdded:Connect(update)
 display.ChildRemoved:Connect(update)
+
+print("NOOOBBB")
